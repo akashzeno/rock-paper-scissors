@@ -1,0 +1,48 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.mainContainer__imgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainContainer__imgContainer > img{
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+    transition: all .5s;
+}
+
+.mainContainer__imgContainer > img:hover {
+    cursor: pointer;
+    transform: rotate(-90deg);
+}
+
+.mainContainer__result {
+    text-align: center;
+}
+.btnReplay {
+    background-color: #ef5480;
+    color: #fff;
+    border-radius: 50px;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all .5s;
+    transform: scale(1.3);
+}
+
+.title{
+    box-shadow: -10px 8px 0px rgb(196 181 253);
+
+}
+
+.result {
+    margin-top: 5rem;
+    box-shadow: 10px 8px 0px rgb(191 219 254);
+}
